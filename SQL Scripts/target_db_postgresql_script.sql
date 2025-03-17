@@ -33,7 +33,7 @@ FROM monthly_target_new_passengers;
 SELECT * -- small table no null
 FROM monthly_target_trips;
 
--- Monthly City-Level Trips Target Performance Report
+-- Further analysis is conducted in the trips file 
 
 
 
