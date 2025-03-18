@@ -36,3 +36,8 @@ This project processes 426,885 records spanning trip data, customer behavior, an
 By leveraging this data-driven approach, Good Cabs can align its operational performance with strategic business goals, improve customer engagement, and refine decision-making to maximize efficiency and profitability.
 
 ![Data Model](Images/DataModel.jpg)
+
+# Data Exploration and Analysis
+
+
+
