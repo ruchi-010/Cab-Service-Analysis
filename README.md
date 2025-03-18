@@ -40,5 +40,28 @@ By leveraging this data-driven approach, Good Cabs can align its operational per
 
 # Data Exploration and Analysis
 
+- **Schema Validation & Data Integrity**
+  - Executed rigorous SQL scripts in PostgreSQL to validate schema relationships between tables (e.g., `dim_city`, `dim_date`, and `fact_trips`).
+  - Applied referential integrity checks and constraints to ensure data consistency across 425K+ trip records.
+
+- **Advanced SQL Techniques**
+  - Utilized window functions (e.g., `ROW_NUMBER()`, `RANK()`) and Common Table Expressions (CTEs) to perform multi-level aggregations.
+  - Designed complex JOINs and subqueries to merge operational data with business targets for comprehensive analysis.
+
+- **Data Aggregation & Transformation**
+  - Generated detailed metrics on trip volumes, fare structures, and passenger segmentation.
+  - Calculated key performance indicators such as monthly retention rates and revenue distributions, segmented by city and time period.
+
+- **Static Reporting with Power BI**
+    - Exported aggregated datasets to Power BI for creating static, visually-rich summary reports.
+    - Developed reports covering:
+        1. Trip distribution across cities
+        2. Weekday vs. weekend trends
+        3. Cumulative contributions of repeat passenger trips
+        4. Monthly revenue performance and target achievements
+
+- **Technical Outcome**
+  - Demonstrated a robust and reproducible workflow that transforms raw operational data into actionable insights through advanced PostgreSQL querying and high-quality static visual reporting.
+
 
 
