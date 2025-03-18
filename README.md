@@ -65,4 +65,31 @@ For complete scripts and reports, refer to:
 - [PostgreSQL Scripts](SQL_Scripts/trips_db_postgresql_script.sql)
 - [Good Cabs Summary Report (PBIX)](good_cabs_summary_report.pbix) | [PDF Version](good_cabs_summary_report.pdf)
 
+# Key Findings & Insights
+
+1. **Scale and Composition**
+   - The dataset includes 426K+ trips and provides insights into 426K total passengers, split as 177K new and 249K repeat.
+   - This scale enables granular analysis by city (e.g., Jaipur, Kochi, Chandigarh, Coimbatore, Mysore) and by month over 182 days.
+
+2. **Monthly Trends**
+   - Average monthly trip counts range from 63K in June to 75K in February.
+   - For example, January shows an average of 70K trips, while peak activity is observed in February and a noticeable dip occurs in June.
+
+3. **City-Specific Performance**
+   - **High-Performing Cities:**
+     - *Jaipur* stands out with ₹37M in revenue, driven by a peak month contribution of 19.07%.
+     - *Kochi* and *Chandigarh* also perform strongly with revenues of ₹17M and ₹11M, respectively.
+   - **Underperforming/Challenged Markets:**
+     - In contrast, cities like *Coimbatore* and *Mysore* tend to lag, reflecting lower revenue and less robust operational metrics.
+     - Such metrics highlight the revenue concentration in high-demand markets while signaling areas for operational improvement in weaker regions.
+
+4. **Temporal Demand Distribution**
+   - Analysis shows that 55.96% of trips occur during weekdays and 44.04% during weekends.
+   - This consistent weekday bias is critical for staffing and operational planning, suggesting that cities with a stronger weekday demand (e.g., Jaipur, Kochi) may require more aggressive scheduling than those with a higher weekend proportion.
+
+5. **Customer Retention & Repeat Usage**
+   - Repeat passenger contributions in select cities are approximately 51.26%, 50.14%, and 48.75%.
+   - Retention rates across cities vary significantly—from as low as 21% in some underperforming markets like Coimbatore to as high as 83.52% in stronger markets such as Jaipur.
+   - These insights emphasize the need for targeted customer engagement strategies tailored to each city and month.
+
 
