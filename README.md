@@ -1,5 +1,6 @@
 # Cab Service Analysis
-![Trip Summary Report](Images/report_trips.jpg)                  ![Passenger Summmary Report](Images/report_passengers.jpg)             
+
+![Trip Summary Report](Images/report_trips.jpg)                                      ![Passenger Summmary Report](Images/report_passengers.jpg)             
 
 # Project Overview
 - The ride-hailing industry is witnessing a rapid transformation, driven by increasing urbanization, evolving consumer preferences, and intensified competition. **Good Cabs**, operating in multiple tier-2 cities, is at a critical juncture where optimizing business operations and improving service quality are pivotal to sustaining long-term growth. While expanding market reach is crucial, ensuring high levels of customer satisfaction and operational efficiency is equally vital to maintain a competitive edge.
