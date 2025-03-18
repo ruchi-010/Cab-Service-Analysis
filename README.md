@@ -64,7 +64,7 @@ By leveraging this data-driven approach, Good Cabs can align its operational per
   - Demonstrated a robust and reproducible workflow that transforms raw operational data into actionable insights through advanced PostgreSQL querying and high-quality static visual reporting.
 
 For complete scripts and reports, refer to:
-- [PostgreSQL Scripts](SQL_Scripts/target_db_postgresql_script.sql)
+- [PostgreSQL Scripts](SQL_Scripts/trips_db_postgresql_script.sql)
 - [Good Cabs Summary Report (PBIX)](good_cabs_summary_report.pbix) | [PDF Version](good_cabs_summary_report.pdf)
 
 
