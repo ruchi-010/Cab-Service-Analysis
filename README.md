@@ -74,6 +74,7 @@ For complete scripts and reports, refer to:
 2. **Monthly Trends**
    - Average monthly trip counts range from 63K in June to 75K in February.
    - For example, January shows an average of 70K trips, while peak activity is observed in February and a noticeable dip occurs in June.
+  
      ![average monthly trips](Images/avg_trips_each_month.jpg)
      ![trip distribution across cities](Images/trip_distribution_across_cities.jpg)
      ![Cities that met trip target for each month and city](Images/trip_goals_city_target.jpg)
@@ -103,6 +104,18 @@ For complete scripts and reports, refer to:
   ![new passengers vsn repeat passengers](Images/ridership_trends_new_repeat_passengers.jpg)
   ![repeat passenger retention rate for each city](Images/repeat_passenger_rentention_rate_city_month.jpg)
   ![Cities that hit and miss the targets of acquiring new passengers](Images/city_month_met_passenger_target.jpg)
+
+  6. **Driver and Passenger Ratings**
+   - **Overall Service Quality:**
+     - Driver ratings remain consistently high, averaging **8.99**, indicating strong service delivery and professionalism.
+     - Passenger ratings average **8.58**, slightly lower than driver ratings, suggesting potential areas for service improvement.
+   - **City-Specific Variations:**
+     - High-performing cities such as *Jaipur* and *Kochi* maintain strong passenger ratings, aligning with higher retention and revenue figures.
+     - In lower-performing cities like *Coimbatore* and *Mysore*, passenger ratings show a slight decline, potentially affecting repeat usage and customer satisfaction.
+     - The disparity between driver and passenger ratings suggests that while driver service is well-received, aspects such as ride comfort, pricing, or app experience may require optimization.
+     - Initiatives such as driver training, enhanced customer support, and better ride-matching algorithms could bridge the service perception gap.
+    ![]()
+   
 # Business Recommendations
 
 - **Dynamic Fleet Management**
