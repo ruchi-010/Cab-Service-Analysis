@@ -77,6 +77,8 @@ For complete scripts and reports, refer to:
      ![average monthly trips](Images/avg_trips_each_month.jpg)
      ![trip distribution across cities](Images/trip_distribution_across_cities.jpg)
      ![Cities that met trip target for each month and city](Images/trip_goals_city_target.jpg)
+     ![repeat passenger trips contribution to overall trips for each city](Images/cumulative_contribution_repeat_passenger_trips_each_city.jpg)
+
 3. **City-Specific Performance**
    - **High-Performing Cities:**
      - *Jaipur* stands out with ₹37M in revenue, driven by a peak month contribution of 19.07%.
