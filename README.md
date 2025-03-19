@@ -99,7 +99,7 @@ For complete scripts and reports, refer to:
    
   ![new passengers vsn repeat passengers](Images/ridership_trends_new_repeat_passengers.jpg)
   ![repeat passenger retention rate for each city](Images/repeat_passenger_rentention_rate_city_month.jpg)
-  ![Cities that hit and miss the targets of acquiring new passengers](city_month_met_passenger_target.jpg)
+  ![Cities that hit and miss the targets of acquiring new passengers](Images/city_month_met_passenger_target.jpg)
 # Business Recommendations
 
 - **Dynamic Fleet Management**
