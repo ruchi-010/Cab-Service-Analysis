@@ -74,7 +74,8 @@ For complete scripts and reports, refer to:
 2. **Monthly Trends**
    - Average monthly trip counts range from 63K in June to 75K in February.
    - For example, January shows an average of 70K trips, while peak activity is observed in February and a noticeable dip occurs in June.
-
+     ![average monthly trips](Images/avg_trips_each_month.jpg)
+     ![trip distribution across cities](Images/trip_distribution_across_cities.jpg)
 3. **City-Specific Performance**
    - **High-Performing Cities:**
      - *Jaipur* stands out with ₹37M in revenue, driven by a peak month contribution of 19.07%.
@@ -82,16 +83,23 @@ For complete scripts and reports, refer to:
    - **Underperforming/Challenged Markets:**
      - In contrast, cities like *Coimbatore* and *Mysore* tend to lag, reflecting lower revenue and less robust operational metrics.
      - Such metrics highlight the revenue concentration in high-demand markets while signaling areas for operational improvement in weaker regions.
+     
+      ![ revenue for each city](Images/revenue_per_city.jpg)
+      ![highest revenue month and percentage contribution of that month for each city's total revenue](Images/highest_revenue_month_percent_contribution_each_city.jpg)
 
 4. **Temporal Demand Distribution**
    - Analysis shows that 55.96% of trips occur during weekdays and 44.04% during weekends.
    - This consistent weekday bias is critical for staffing and operational planning, suggesting that cities with a stronger weekday demand (e.g., Jaipur, Kochi) may require more aggressive scheduling than those with a higher weekend proportion.
+   ![trips on weekdays vs. weekends](Images/trips_weekdays_weekends.jpg)
 
 5. **Customer Retention & Repeat Usage**
    - Repeat passenger contributions in select cities are approximately 51.26%, 50.14%, and 48.75%.
    - Retention rates across cities vary significantly—from as low as 21% in some underperforming markets like Coimbatore to as high as 83.52% in stronger markets such as Jaipur.
    - These insights emphasize the need for targeted customer engagement strategies tailored to each city and month.
-
+   
+  ![new passengers vsn repeat passengers](Images/ridership_trends_new_repeat_passengers.jpg)
+  ![repeat passenger retention rate for each city](Images/repeat_passenger_rentention_rate_city_month.jpg)
+  ![Cities that hit and miss the targets of acquiring new passengers](city_month_met_passenger_target.jpg)
 # Business Recommendations
 
 - **Dynamic Fleet Management**
@@ -128,7 +136,7 @@ For complete scripts and reports, refer to:
         3. **Expected Outcome:** Better distribution of trips across the week and improved utilization of the driver fleet on weekends.
 
 - **Integrated Feedback & Improvement**
-   - **Continuous Monitoring:** Establish a robust monitoring framework that tracks key performance indicators such as retention rates and satisfaction metrics in real time. For instance, with driver ratings averaging 8.99 and passenger ratings at 8.58, use these metrics to identify specific service areas that need enhancement. This includes integrating customer surveys, post-ride feedback, and automated data collection tools to create a comprehensive view of service quality.
+   - **Continuous Monitoring:** Establish a robust monitoring framework that tracks key performance indicators such as retention rates and satisfaction metrics in real time. For instance, with driver ratings averaging in *Surat* 6.59 and passenger ratings at 6.42, use these metrics to identify specific service areas that need enhancement. This includes integrating customer surveys, post-ride feedback, and automated data collection tools to create a comprehensive view of service quality.
      
    - **Data-Driven Adjustments:** Use the insights gathered from these metrics to adjust operational tactics. For example, if the quality gap between driver and passenger ratings persists, consider targeted driver training programs, incentive adjustments, or process improvements in the ride experience.
      
