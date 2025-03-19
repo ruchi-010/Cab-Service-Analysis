@@ -94,6 +94,7 @@ For complete scripts and reports, refer to:
 4. **Temporal Demand Distribution**
    - Analysis shows that 55.96% of trips occur during weekdays and 44.04% during weekends.
    - This consistent weekday bias is critical for staffing and operational planning, suggesting that cities with a stronger weekday demand (e.g., Jaipur, Kochi) may require more aggressive scheduling than those with a higher weekend proportion.
+   
    ![trips on weekdays vs. weekends](Images/trips_weekdays_weekends.jpg)
 
 5. **Customer Retention & Repeat Usage**
@@ -114,7 +115,8 @@ For complete scripts and reports, refer to:
      - In lower-performing cities like *Coimbatore* and *Mysore*, passenger ratings show a slight decline, potentially affecting repeat usage and customer satisfaction.
      - The disparity between driver and passenger ratings suggests that while driver service is well-received, aspects such as ride comfort, pricing, or app experience may require optimization.
      - Initiatives such as driver training, enhanced customer support, and better ride-matching algorithms could bridge the service perception gap.
-    ![]()
+
+![drivers' ratings vs. passengers' ratings](Images/driver_passenger_ratings.jpg)
    
 # Business Recommendations
 
@@ -152,6 +154,7 @@ For complete scripts and reports, refer to:
         3. **Expected Outcome:** Better distribution of trips across the week and improved utilization of the driver fleet on weekends.
 
 - **Integrated Feedback & Improvement**
+  
    - **Continuous Monitoring:** Establish a robust monitoring framework that tracks key performance indicators such as retention rates and satisfaction metrics in real time. For instance, with driver ratings averaging in *Surat* 6.59 and passenger ratings at 6.42, use these metrics to identify specific service areas that need enhancement. This includes integrating customer surveys, post-ride feedback, and automated data collection tools to create a comprehensive view of service quality.
      
    - **Data-Driven Adjustments:** Use the insights gathered from these metrics to adjust operational tactics. For example, if the quality gap between driver and passenger ratings persists, consider targeted driver training programs, incentive adjustments, or process improvements in the ride experience.
@@ -167,4 +170,20 @@ For complete scripts and reports, refer to:
      - Utilize customer segmentation derived from analytics to gain detailed insights into the behavioral differences between new and repeat customers. This analysis helps identify distinct preferences, spending patterns, and service expectations.
      - Based on these insights, adjust promotional offers accordingly—for example, providing first-time ride discounts for new users, and exclusive benefits or loyalty bonuses for repeat riders—ensuring that marketing efforts are precisely aligned with customer needs across different regions.
 
+# Tools and Methodologies
 
+- **Data Extraction & Processing:**
+  - Employed **PostgreSQL** for detailed data profiling, ensuring referential integrity and robust schema validation across 425K+ trip records.
+  - Leveraged PostgreSQL to run advanced SQL queries (window functions, CTEs, and complex JOINs) for rigorous data extraction and validation.
+
+- **Visual Analytics:** 
+  - Developed high-fidelity dashboards in **Power BI** to present key metrics such as monthly trip volumes, revenue, and retention rates.
+
+- **Data-Driven Framework:**  
+  - Merged operational insights with business targets to support targeted strategic recommendations and continuous improvement initiatives.
+
+# Conclusion
+- Insights from over 425K trips highlight significant weekday demand variations and regional disparities in service performance.  
+- Cities with lower engagement (e.g., Coimbatore, Mysore) require targeted marketing and operational improvements to drive adoption.
+- Integrating PostgreSQL analytics with Power BI reporting enables continuous performance monitoring and drives long-term business growth.
+- A data-first approach strengthens competitive advantage by aligning operations with evolving customer needs. 
