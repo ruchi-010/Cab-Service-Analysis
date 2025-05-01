@@ -94,9 +94,7 @@ For complete scripts and reports, refer to:
 4. **Temporal Demand Distribution**
    - Analysis shows that 55.96% of trips occur during weekdays and 44.04% during weekends.
    - This consistent weekday bias is critical for staffing and operational planning, suggesting that cities with a stronger weekday demand (e.g., Jaipur, Kochi) may require more aggressive scheduling than those with a higher weekend proportion.
-   
-   ![trips on weekdays vs. weekends](Images/trips_weekdays_weekends.jpg)
-
+  
 5. **Customer Retention & Repeat Usage**
    - Repeat passenger contributions in select cities are approximately 51.26%, 50.14%, and 48.75%.
    - Retention rates across cities vary significantly—from as low as 21% in some underperforming markets like Coimbatore to as high as 83.52% in stronger markets such as Jaipur.
